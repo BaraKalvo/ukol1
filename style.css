@@ -37,11 +37,17 @@ nav li {
     display: inline-block;
 }
 
+nav ul {
+    margin: 0;
+}
+
 nav {
     margin: 0;
     padding: 0;
     text-align: center;
     background-color: #257070;
+    border-top: 4px solid #46c4c4;
+    border-bottom: 4px solid #46c4c4;
 }
 
 nav a {
@@ -53,7 +59,8 @@ nav a {
 
 nav a:hover,
 nav a:focus,
-nav a:active {
+nav a:active,
+.vybrane {
     background-color: #46c4c4;
 }
 
@@ -85,4 +92,43 @@ footer {
 .tlacitko a:focus,
 .tlacitko a:active {
     background-color: #46c4c4;
+}
+
+header {
+    background-color: #a1c9c9;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header h1 {
+    color: white;
+    font-style: italic;
+    padding-top: 10px;
+    font-size: 30px;
+    text-shadow: 0 1px 1px black;
+    border-bottom: 4px solid #f2c306;
+    box-shadow: 0 1px 0 black;
+}
+
+div {
+    display: flex;
+}
+
+div p {
+    padding-top: 20px;
+    font-weight: bold;
+    text-shadow: 0 1px 0px black;
+
+}
+
+div span {
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+div img {
+    width: 90px;
+    height: 90px;
+    padding-top: 15px;
 }
