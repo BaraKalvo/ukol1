@@ -14,6 +14,7 @@ a {
 }
 
 h2 {
+    text-transform: uppercase;
     border-bottom: 4px solid #46c4c4;
     width: max-content;
     margin-top: 0;
@@ -107,7 +108,7 @@ header h1 {
     padding-top: 10px;
     font-size: 30px;
     text-shadow: 0 1px 1px black;
-    border-bottom: 4px solid #f2c306;
+    border-bottom: 3px solid #f2c306;
     box-shadow: 0 1px 0 black;
 }
 
@@ -130,5 +131,5 @@ div span {
 div img {
     width: 90px;
     height: 90px;
-    padding-top: 15px;
+    padding-top: 12px;
 }
