@@ -17,8 +17,12 @@ h2 {
     text-transform: uppercase;
     border-bottom: 4px solid #46c4c4;
     width: max-content;
-    margin-top: 0;
 }
+
+h3 {
+    margin-top: 25px;
+}
+
 
 .foto-uvodni {
     width: 300px;
@@ -132,4 +136,70 @@ div img {
     width: 90px;
     height: 90px;
     padding-top: 12px;
+}
+
+table {
+    border-spacing: 0;
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    border-bottom: 2px solid #257070;
+    padding: 8px 0;
+}
+
+th {
+    text-align: left;
+    color: #257070;
+}
+
+.organizace {
+    padding-left: 60px;
+    text-align: right;
+
+}
+
+td a {
+    text-decoration: none;
+}
+
+.pozdrav td {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: 3px solid #257070;
+    background-color: #d5e0e0;
+}
+
+.pozdrav {
+    border-collapse: collapse;
+}
+
+.A:hover {
+    background-image: url(obrazky/A.png);
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.H:hover {
+    background-image: url(obrazky/H.png);
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.O:hover {
+    background-image: url(obrazky/O.png);
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.J:hover {
+    background-image: url(obrazky/J.png);
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+html {
+    background-color: #4f4f4f;
 }
