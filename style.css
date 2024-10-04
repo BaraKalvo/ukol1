@@ -1,3 +1,7 @@
+html {
+    background-color: #4f4f4f;
+}
+
 body {
     color: #332c2c;
     background-color: #f5f5f5;
@@ -30,7 +34,7 @@ h3 {
     float: right;
     margin-left: 30px;
     margin-bottom: 50px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     border: 2px solid #2e8787;
 }
 
@@ -70,7 +74,6 @@ nav a:active,
 }
 
 footer {
-    clear: both;
     background-color: #4f4f4f;
     color: white;
     text-align: center;
@@ -176,30 +179,18 @@ td a {
     border-collapse: collapse;
 }
 
-.A:hover {
-    background-image: url(obrazky/A.png);
-    background-repeat: no-repeat;
-    background-color: white;
+.pismenoA:hover {
+    background: white url(obrazky/A.png) no-repeat;
 }
 
-.H:hover {
-    background-image: url(obrazky/H.png);
-    background-repeat: no-repeat;
-    background-color: white;
+.pismenoH:hover {
+    background: white url(obrazky/H.png) no-repeat;
 }
 
-.O:hover {
-    background-image: url(obrazky/O.png);
-    background-repeat: no-repeat;
-    background-color: white;
+.pismenoO:hover {
+    background: white url(obrazky/O.png) no-repeat;
 }
 
-.J:hover {
-    background-image: url(obrazky/J.png);
-    background-repeat: no-repeat;
-    background-color: white;
-}
-
-html {
-    background-color: #4f4f4f;
+.pismenoJ:hover {
+    background: white url(obrazky/J.png) no-repeat;
 }
